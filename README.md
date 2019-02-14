@@ -48,6 +48,15 @@ The proposed challenge consists of an movie search application using HTML/JS/CSS
 - [ ] Suporte Tolls: [GitHub](https://github.com/) / [Travis CI](https://travis-ci.com/) / [Coveralls](https://coveralls.io/) / [NpmJS](https://www.npmjs.com/)
 
 
+## Ideas for future implementations
+
+- [ ] Pagination
+- [ ] Favorites
+- [ ] Historic
+- [ ] Option view per block with cover
+- [ ] Google authentication
+- [ ] To share
+
 
 ## Versioning
 
