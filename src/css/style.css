@@ -1,12 +1,15 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-.search-form, .table, .table thead {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
+.table thead, .table, .search-form {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
 
 .search-form input {
-  height: 36px; }
+  height: 36px;
+}
 .search-form .icone {
   background-image: url(../images/ico-find.svg);
   background-repeat: no-repeat;
@@ -15,37 +18,43 @@
   width: 20px;
   position: absolute;
   margin: 15px;
-  opacity: 0.3; }
+  opacity: 0.3;
+}
 .search-form button {
   height: 48px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: inherit;
-  cursor: pointer; }
+  cursor: pointer;
+}
 .search-form .sqr-btn-left {
   width: 8px;
   height: 8px;
   background: #FAFAFA;
   position: absolute;
   margin: 20px -4px;
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+}
 
 .input-group {
   position: relative;
   display: table;
-  border-collapse: separate; }
-  .input-group .form-control {
-    width: 100%;
-    font-family: inherit;
-    padding: 6px 12px 6px 40px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border: none;
-    border-radius: 4px; }
-  .input-group .input-group-btn {
-    vertical-align: middle;
-    width: 1%;
-    display: table-cell; }
+  border-collapse: separate;
+}
+.input-group .form-control {
+  width: 100%;
+  font-family: inherit;
+  padding: 6px 12px 6px 40px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 4px;
+}
+.input-group .input-group-btn {
+  vertical-align: middle;
+  width: 1%;
+  display: table-cell;
+}
 
 .table {
   width: 100%;
@@ -53,20 +62,27 @@
   background: #FAFAFA;
   border-spacing: 0;
   border-collapse: collapse;
-  font-size: inherit; }
-  .table th, .table td {
-    padding: 15px; }
-  .table thead th {
-    vertical-align: bottom;
-    text-align: left; }
-  .table thead :nth-child(1) {
-    width: 50%; }
-  .table thead :nth-child(2) {
-    width: 15%; }
-  .table thead :nth-child(3) {
-    width: 35%; }
-  .table tbody tr:nth-of-type(odd) {
-    background-color: rgba(219, 220, 221, 0.27); }
+  font-size: inherit;
+}
+.table th, .table td {
+  padding: 15px;
+}
+.table thead th {
+  vertical-align: bottom;
+  text-align: left;
+}
+.table thead :nth-child(1) {
+  width: 50%;
+}
+.table thead :nth-child(2) {
+  width: 15%;
+}
+.table thead :nth-child(3) {
+  width: 35%;
+}
+.table tbody tr:nth-of-type(odd) {
+  background-color: rgba(219, 220, 221, 0.27);
+}
 
 .modal {
   position: fixed;
@@ -78,7 +94,8 @@
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s 0.5s ease-in-out;
-  transition: all 0.5s 0.5s ease-in-out; }
+  transition: all 0.5s 0.5s ease-in-out;
+}
 
 .modal-content {
   padding: 10px;
@@ -99,21 +116,26 @@
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
-  .modal-content figure {
-    display: inline-block;
-    padding: 10px; }
-  .modal-content .content {
-    display: inline-block;
-    width: 264px;
-    vertical-align: top;
-    padding: 20px; }
-  .modal-content p {
-    padding-top: 10px; }
-  .modal-content footer {
-    position: absolute;
-    bottom: 30px;
-    right: 30px; }
+  transition: all 0.5s ease-in-out;
+}
+.modal-content figure {
+  display: inline-block;
+  padding: 10px;
+}
+.modal-content .content {
+  display: inline-block;
+  width: 264px;
+  vertical-align: top;
+  padding: 20px;
+}
+.modal-content p {
+  padding-top: 10px;
+}
+.modal-content footer {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
 
 .modal-close {
   position: absolute;
@@ -121,14 +143,16 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .modal.active {
   opacity: 1;
   visibility: visible;
   -webkit-transition-delay: 0s;
   -ms-transition-delay: 0s;
-  transition-delay: 0s; }
+  transition-delay: 0s;
+}
 
 div.modal .modal-content {
   opacity: 1;
@@ -137,7 +161,8 @@ div.modal .modal-content {
   transform: translate(-50%, 0);
   -webkit-transition-delay: 0.5s;
   -ms-transition-delay: 0.5s;
-  transition-delay: 0.5s; }
+  transition-delay: 0.5s;
+}
 
 @media screen and (max-width: 520px) {
   .modal .modal-content {
@@ -147,35 +172,43 @@ div.modal .modal-content {
     margin: 10px;
     min-width: auto;
     margin-left: auto;
-    margin-right: auto; }
-    .modal .modal-content figure {
-      display: block;
-      text-align: center; }
+    margin-right: auto;
+  }
+  .modal .modal-content figure {
+    display: block;
+    text-align: center;
+  }
   .modal footer {
     position: relative;
     bottom: inherit;
     right: inherit;
-    float: right; } }
+    float: right;
+  }
+}
 body {
   background: #F1F2F5;
   font-family: "Fira Sans", sans-serif;
   color: #9196AC;
   font-size: 14px;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 a {
   color: #1199DD;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 h1 {
   font-size: 30px;
-  color: #515163; }
+  color: #515163;
+}
 
 h2 {
   font-size: 18px;
   color: #767E92;
   margin-bottom: 15px;
-  margin-top: 5px; }
+  margin-top: 5px;
+}
 
 button {
   background-color: #1199DD;
@@ -185,18 +218,23 @@ button {
   padding-left: 24px;
   padding-right: 24px;
   height: 36px;
-  border: none; }
-  button:hover {
-    background-color: #55c3fa; }
-  button:active {
-    background-color: #1199DD; }
+  border: none;
+}
+button:hover {
+  background-color: #55c3fa;
+}
+button:active {
+  background-color: #1199DD;
+}
 
 input {
   background-color: #FAFAFA;
-  color: inherit; }
+  color: inherit;
+}
 
 ::placeholder {
-  color: #ccc; }
+  color: #ccc;
+}
 
 .navbar {
   position: relative;
@@ -206,10 +244,12 @@ input {
   padding: 20px 0;
   margin: 0;
   background-color: #FAFAFA;
-  height: 40px; }
+  height: 40px;
+}
 
 .search-form {
-  background-color: #FAFAFA; }
+  background-color: #FAFAFA;
+}
 
 main {
   padding-top: 2rem;
@@ -217,14 +257,16 @@ main {
   position: relative;
   display: block;
   padding-left: 1rem;
-  padding-right: 1rem; }
+  padding-right: 1rem;
+}
 
 .container {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
 
 .faixa-ahgora {
   height: 35px;
@@ -233,6 +275,7 @@ main {
   background-image: url(https://s3-sa-east-1.amazonaws.com/ahgora.portal/wp-content/uploads/2018/03/20185607/logo-new1.png);
   background-size: 85px;
   background-repeat: no-repeat;
-  background-position: 5px 3px; }
+  background-position: 5px 3px;
+}
 
 /*# sourceMappingURL=style.css.map */
