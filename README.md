@@ -1,6 +1,6 @@
 # OMDb API Finder Movies
 
-[![Build Status](https://travis-ci.com/matheusroversi/spotify-wrapper-player.svg?branch=master)](https://travis-ci.com/matheusroversi/spotify-wrapper-player) [![Coverage Status](https://coveralls.io/repos/github/matheusroversi/spotify-wrapper-player/badge.svg?branch=master)](https://coveralls.io/github/matheusroversi/spotify-wrapper-player?branch=master)
+[![Build Status](https://travis-ci.com/matheusroversi/ombd-finder-movies.svg?branch=master)](https://travis-ci.com/matheusroversi/ombd-finder-movies) [![Coverage Status](https://coveralls.io/repos/github/matheusroversi/ombd-finder-movies/badge.svg?branch=master)](https://coveralls.io/github/matheusroversi/ombd-finder-movies?branch=master)
 
 ![OMDb API Finder Movies - OMDb API Screenshot](src/images/screenshot.png)
 
