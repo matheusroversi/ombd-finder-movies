@@ -1,7 +1,7 @@
 {
   "name": "ombd-finder-movies",
-  "version": "1.0.2",
-  "main": "src/index.js",
+  "version": "1.0.4",
+  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require @babel/register",
     "build": "./node_modules/.bin/webpack --colors --progress && npm run sass",
