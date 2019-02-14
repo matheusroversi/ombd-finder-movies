@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.com/matheusroversi/ombd-finder-movies.svg?branch=master)](https://travis-ci.com/matheusroversi/ombd-finder-movies) [![Coverage Status](https://coveralls.io/repos/github/matheusroversi/ombd-finder-movies/badge.svg?branch=master)](https://coveralls.io/github/matheusroversi/ombd-finder-movies?branch=master) [![Netlify Status](https://api.netlify.com/api/v1/badges/f4dc3902-6ac9-4150-91cb-5f896f4678cc/deploy-status)](https://app.netlify.com/sites/ombd-finder-movies/deploys)
 
 View Preview in [https://ombd-finder-movies.netlify.com/](https://ombd-finder-movies.netlify.com/)
+
 Link library development [https://github.com/matheusroversi/omdb-wrapper](https://github.com/matheusroversi/omdb-wrapper)
 
 ![OMDb API Finder Movies - OMDb API Screenshot](src/images/screenshot.png)
