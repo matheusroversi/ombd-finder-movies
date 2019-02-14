@@ -71,5 +71,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 |  [Matheus Roversi](https://github.com/matheusroversi/)   |
 
 See also the list of [contributors](https://github.com/matheusroversi/omdb-wrapper/contributors) who participated in this project.
-
-This material is part of the course [JS TDD course](https://willianjusten.com.br/cursos/) by [Willian Justen](https://github.com/willianjusten/) 
