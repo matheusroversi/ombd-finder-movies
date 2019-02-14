@@ -1,0 +1,54 @@
+
+.search-form {
+    @extend %shadow;
+    input {
+      height: 36px;
+    }
+    .icone {
+      background-image: url(../images/ico-find.svg);
+      background-repeat: no-repeat;
+      background-size: 17px;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      margin: 15px;
+      opacity: 0.3;
+    }
+    button {
+      height: 48px;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    .sqr-btn-left {
+      width: 8px;
+      height: 8px;
+      background: $white-color;
+      position: absolute;
+      margin: 20px -4px;
+      transform: rotate(45deg);
+    }
+  }
+
+  .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+
+    .form-control {
+      width: 100%;
+      font-family: inherit;
+      padding: 6px 12px 6px 40px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      border: none;
+      border-radius: 4px;
+    }
+    .input-group-btn {
+      vertical-align: middle;
+      width: 1%;
+      display: table-cell;
+    }
+    
+  }

@@ -1,0 +1,30 @@
+.table {
+    width: 100%;
+    margin-top: 1.5rem;
+    background: $white-color;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: inherit;
+    @extend %shadow;    
+
+    th, td {
+        padding: 15px;
+    }
+    thead {
+        @extend %shadow;
+        th {
+            vertical-align: bottom;
+            text-align: left;
+        }
+        :nth-child(1) {
+            width: 50%;
+          }:nth-child(2) {
+            width: 15%;
+          }:nth-child(3) {
+            width: 35%;
+          }
+    }
+    tbody tr:nth-of-type(odd) {
+        background-color: rgba(219, 220, 221, .27);
+    }
+}

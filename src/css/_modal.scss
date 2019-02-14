@@ -1,0 +1,111 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s 0.5s ease-in-out;
+    transition: all 0.5s 0.5s ease-in-out;
+  }
+  
+  .modal-content {
+    padding: 10px;
+    max-width: 600px;
+    min-width: 360px;
+    max-height: 85%;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    z-index: 2;
+    opacity: 0;
+    border-radius: 3px;
+    background: #fff;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    figure {
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .content {
+        display: inline-block;
+        width: 264px;
+        vertical-align: top;
+        padding: 20px;
+    }
+    
+    p {
+        padding-top: 10px;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+
+  }
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+  .modal.active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  
+  div.modal .modal-content {
+    opacity: 1;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+  }
+
+
+  @media screen and (max-width: 520px) {
+    .modal{
+      .modal-content {
+        width: 90%;
+        height: auto;
+        overflow: auto;
+        margin: 10px;
+        min-width: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        figure {
+          display: block;
+          text-align: center;
+        }
+
+      }
+      footer {
+        position: relative;
+        bottom: inherit;
+        right: inherit;
+        float: right;
+      }
+
+    }
+  }

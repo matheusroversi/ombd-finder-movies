@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta charset="UTF-8">
+  <title>Pesquisa de Filmes - OMDb API</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="faixa-ahgora"></div>
+
+  <header class="navbar">
+    <h1 class="container">Filmes</h1>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <form id="search-form">
+        <div class="search-form input-group">
+          <div class="icone"></div>
+          <input id="search-input" class="form-control" placeholder="Pesquisar..."  title="Informe um título de filme para pesquisar" required autofocus>
+          <span class="input-group-btn">
+            <div class="sqr-btn-left"></div>
+            <button type="submit" form="search-form" value="Submit" title="Clique para pesquisar">Aplicar</button>
+          </span>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <table id="table-movie-list" class="table table-striped">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Ano</th>
+            <th>Gerero</th>
+          </tr>
+        </thead>
+        <tbody id="movie-list">
+        </tbody>
+      </table>
+    </section>
+
+    <div id="modal_" class="modal">
+      <div class="modal-content">
+        <div id="movie-info"></div>
+        <footer>
+          <button onclick="document.getElementById('modal_').classList.remove('active')" title="Clique para fechar">OK</button>
+        </footer>
+      </div>
+      <label class="modal-close" for="modal_"></label>
+    </div>
+
+  </main>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>
