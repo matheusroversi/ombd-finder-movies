@@ -27,8 +27,7 @@
   "author": "Matheus Roversi <matheusroversi@gmail.com> (http://matheusroversi.com/)",
   "license": "ISC",
   "dependencies": {
-    "omdb-wrapper": "^1.0.2",
-    "spotify-wrapper-ma": "^1.0.0"
+    "omdb-wrapper": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
