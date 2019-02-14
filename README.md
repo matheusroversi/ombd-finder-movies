@@ -6,7 +6,7 @@ View Preview in [https://ombd-finder-movies.netlify.com/](https://ombd-finder-mo
 
 ![OMDb API Finder Movies - OMDb API Screenshot](src/images/screenshot.png)
 
-> This application uses [OMDb WRAPPER](https://github.com/matheusroversi/omdb-wrapper) library to get informations from [OMDb API](https://www.omdbapi.com/). 
+> This application uses [OMDb WRAPPER](https://github.com/matheusroversi/omdb-wrapper) library to get informations from [OMDb API](https://www.omdbapi.com/). *****
 
 ## Browser Support
 
